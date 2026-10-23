@@ -105,6 +105,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Affected versions: < 1.1.16; >= 2.0.0, < 2.1.2; >= 3.0.0, < 5.0.7
 - Installed 1.1.13 in `package-lock.json`. Fixed in 1.1.16. Patch: Transitive dependency. Run `npm update brace-expansion`; if `npm ls brace-expansion` still shows 1.1.13, add `"overrides": {"brace-expansion": "^1.1.16"}` to `package.json` and run `npm install`.
 - Installed 5.0.5 in `package-lock.json`. Fixed in 5.0.7. Patch: Transitive dependency. Run `npm update brace-expansion`; if `npm ls brace-expansion` still shows 5.0.5, add `"overrides": {"brace-expansion": "^5.0.7"}` to `package.json` and run `npm install`.
+- Tracking issue: [#7](https://github.com/timothyryner/marketplace-hub/issues/7)
 
 ### GHSA-6j4f-fj2g-mc7p: brace-expansion (High)
 <!-- securitybot-id: GHSA-6j4f-fj2g-mc7p|npm|brace-expansion -->
@@ -118,6 +119,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Affected versions: < 1.1.19; >= 2.0.0, < 2.1.5; >= 3.0.0, < 3.0.7; >= 4.0.0, < 5.0.10
 - Installed 1.1.13 in `package-lock.json`. Fixed in 1.1.19. Patch: Transitive dependency. Run `npm update brace-expansion`; if `npm ls brace-expansion` still shows 1.1.13, add `"overrides": {"brace-expansion": "^1.1.19"}` to `package.json` and run `npm install`.
 - Installed 5.0.5 in `package-lock.json`. Fixed in 5.0.10. Patch: Transitive dependency. Run `npm update brace-expansion`; if `npm ls brace-expansion` still shows 5.0.5, add `"overrides": {"brace-expansion": "^5.0.10"}` to `package.json` and run `npm install`.
+- Tracking issue: [#7](https://github.com/timothyryner/marketplace-hub/issues/7)
 
 ### GHSA-mh99-v99m-4gvg: brace-expansion (High)
 <!-- securitybot-id: GHSA-mh99-v99m-4gvg|npm|brace-expansion -->
@@ -131,6 +133,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Affected versions: < 1.1.17; >= 2.0.0, < 2.1.3; >= 3.0.0, < 3.0.3; >= 4.0.0, < 5.0.8
 - Installed 1.1.13 in `package-lock.json`. Fixed in 1.1.17. Patch: Transitive dependency. Run `npm update brace-expansion`; if `npm ls brace-expansion` still shows 1.1.13, add `"overrides": {"brace-expansion": "^1.1.17"}` to `package.json` and run `npm install`.
 - Installed 5.0.5 in `package-lock.json`. Fixed in 5.0.8. Patch: Transitive dependency. Run `npm update brace-expansion`; if `npm ls brace-expansion` still shows 5.0.5, add `"overrides": {"brace-expansion": "^5.0.8"}` to `package.json` and run `npm install`.
+- Tracking issue: [#7](https://github.com/timothyryner/marketplace-hub/issues/7)
 
 ### GHSA-qhr7-859c-m2p7: brace-expansion (High)
 <!-- securitybot-id: GHSA-qhr7-859c-m2p7|npm|brace-expansion -->
@@ -144,6 +147,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Affected versions: < 1.1.20; >= 2.0.0, < 2.1.6; >= 3.0.0, < 3.0.8; >= 4.0.0, < 5.0.11
 - Installed 1.1.13 in `package-lock.json`. Fixed in 1.1.20. Patch: Transitive dependency. Run `npm update brace-expansion`; if `npm ls brace-expansion` still shows 1.1.13, add `"overrides": {"brace-expansion": "^1.1.20"}` to `package.json` and run `npm install`.
 - Installed 5.0.5 in `package-lock.json`. Fixed in 5.0.11. Patch: Transitive dependency. Run `npm update brace-expansion`; if `npm ls brace-expansion` still shows 5.0.5, add `"overrides": {"brace-expansion": "^5.0.11"}` to `package.json` and run `npm install`.
+- Tracking issue: [#7](https://github.com/timothyryner/marketplace-hub/issues/7)
 
 ### GHSA-rgw5-rvv9-x895: brace-expansion (High)
 <!-- securitybot-id: GHSA-rgw5-rvv9-x895|npm|brace-expansion -->
@@ -157,6 +161,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Affected versions: < 1.1.18; >= 2.0.0, < 2.1.4; >= 3.0.0, < 3.0.6; >= 4.0.0, < 5.0.9
 - Installed 1.1.13 in `package-lock.json`. Fixed in 1.1.18. Patch: Transitive dependency. Run `npm update brace-expansion`; if `npm ls brace-expansion` still shows 1.1.13, add `"overrides": {"brace-expansion": "^1.1.18"}` to `package.json` and run `npm install`.
 - Installed 5.0.5 in `package-lock.json`. Fixed in 5.0.9. Patch: Transitive dependency. Run `npm update brace-expansion`; if `npm ls brace-expansion` still shows 5.0.5, add `"overrides": {"brace-expansion": "^5.0.9"}` to `package.json` and run `npm install`.
+- Tracking issue: [#7](https://github.com/timothyryner/marketplace-hub/issues/7)
 
 ### GHSA-73wf-gq98-2v4g: browserslist (High)
 <!-- securitybot-id: GHSA-73wf-gq98-2v4g|npm|browserslist -->
@@ -169,6 +174,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Package: `browserslist` (npm)
 - Affected versions: < 4.28.7
 - Installed 4.28.2 in `package-lock.json`. Fixed in 4.28.7. Patch: Transitive dependency. Run `npm update browserslist`; if `npm ls browserslist` still shows 4.28.2, add `"overrides": {"browserslist": "^4.28.7"}` to `package.json` and run `npm install`.
+- Tracking issue: [#8](https://github.com/timothyryner/marketplace-hub/issues/8)
 
 ### GHSA-c83g-rgw3-j3cx: browserslist (High)
 <!-- securitybot-id: GHSA-c83g-rgw3-j3cx|npm|browserslist -->
@@ -181,6 +187,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Package: `browserslist` (npm)
 - Affected versions: < 4.28.7
 - Installed 4.28.2 in `package-lock.json`. Fixed in 4.28.7. Patch: Transitive dependency. Run `npm update browserslist`; if `npm ls browserslist` still shows 4.28.2, add `"overrides": {"browserslist": "^4.28.7"}` to `package.json` and run `npm install`.
+- Tracking issue: [#8](https://github.com/timothyryner/marketplace-hub/issues/8)
 
 ### GHSA-2883-xcg3-v3hh: js-yaml (High)
 <!-- securitybot-id: GHSA-2883-xcg3-v3hh|npm|js-yaml -->
@@ -193,6 +200,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Package: `js-yaml` (npm)
 - Affected versions: >= 3.0.0, < 3.15.2; >= 4.0.0, < 4.3.2
 - Installed 4.1.1 in `package-lock.json`. Fixed in 4.3.2. Patch: Transitive dependency. Run `npm update js-yaml`; if `npm ls js-yaml` still shows 4.1.1, add `"overrides": {"js-yaml": "^4.3.2"}` to `package.json` and run `npm install`.
+- Tracking issue: [#9](https://github.com/timothyryner/marketplace-hub/issues/9)
 
 ### GHSA-52cp-r559-cp3m: js-yaml (High)
 <!-- securitybot-id: GHSA-52cp-r559-cp3m|npm|js-yaml -->
@@ -205,6 +213,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Package: `js-yaml` (npm)
 - Affected versions: >= 3.0.0, < 3.15.0; >= 4.0.0, < 4.3.0
 - Installed 4.1.1 in `package-lock.json`. Fixed in 4.3.0. Patch: Transitive dependency. Run `npm update js-yaml`; if `npm ls js-yaml` still shows 4.1.1, add `"overrides": {"js-yaml": "^4.3.0"}` to `package.json` and run `npm install`.
+- Tracking issue: [#9](https://github.com/timothyryner/marketplace-hub/issues/9)
 
 ### GHSA-5p4m-2wfm-xmqj: js-yaml (High)
 <!-- securitybot-id: GHSA-5p4m-2wfm-xmqj|npm|js-yaml -->
@@ -216,6 +225,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Package: `js-yaml` (npm)
 - Affected versions: >= 3.0.0, < 3.15.1; >= 4.0.0, < 4.3.1
 - Installed 4.1.1 in `package-lock.json`. Fixed in 4.3.1. Patch: Transitive dependency. Run `npm update js-yaml`; if `npm ls js-yaml` still shows 4.1.1, add `"overrides": {"js-yaml": "^4.3.1"}` to `package.json` and run `npm install`.
+- Tracking issue: [#9](https://github.com/timothyryner/marketplace-hub/issues/9)
 
 ### GHSA-28wg-ghj8-5hjv: nanoid (High)
 <!-- securitybot-id: GHSA-28wg-ghj8-5hjv|npm|nanoid -->
@@ -228,6 +238,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Package: `nanoid` (npm)
 - Affected versions: < 3.3.16; >= 4.0.0, < 5.1.16
 - Installed 3.3.11 in `package-lock.json`. Fixed in 3.3.16. Patch: Transitive dependency. Run `npm update nanoid`; if `npm ls nanoid` still shows 3.3.11, add `"overrides": {"nanoid": "^3.3.16"}` to `package.json` and run `npm install`.
+- Tracking issue: [#10](https://github.com/timothyryner/marketplace-hub/issues/10)
 
 ### GHSA-2v37-7h3g-55p8: nanoid (High)
 <!-- securitybot-id: GHSA-2v37-7h3g-55p8|npm|nanoid -->
@@ -240,6 +251,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Package: `nanoid` (npm)
 - Affected versions: < 3.3.18; >= 4.0.0, < 5.1.6
 - Installed 3.3.11 in `package-lock.json`. Fixed in 3.3.18. Patch: Transitive dependency. Run `npm update nanoid`; if `npm ls nanoid` still shows 3.3.11, add `"overrides": {"nanoid": "^3.3.18"}` to `package.json` and run `npm install`.
+- Tracking issue: [#10](https://github.com/timothyryner/marketplace-hub/issues/10)
 
 ### GHSA-xwg4-73v4-xw9w: nanoid (High)
 <!-- securitybot-id: GHSA-xwg4-73v4-xw9w|npm|nanoid -->
@@ -252,6 +264,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Package: `nanoid` (npm)
 - Affected versions: < 3.3.12; >= 4.0.0, < 5.1.11
 - Installed 3.3.11 in `package-lock.json`. Fixed in 3.3.12. Patch: Transitive dependency. Run `npm update nanoid`; if `npm ls nanoid` still shows 3.3.11, add `"overrides": {"nanoid": "^3.3.12"}` to `package.json` and run `npm install`.
+- Tracking issue: [#10](https://github.com/timothyryner/marketplace-hub/issues/10)
 
 ### GHSA-267c-6grr-h53f: next (High)
 <!-- securitybot-id: GHSA-267c-6grr-h53f|npm|next -->
@@ -420,6 +433,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Affected versions: < 8.5.12
 - Installed 8.4.31 in `package-lock.json`. Fixed in 8.5.12. Patch: Transitive dependency. Run `npm update postcss`; if `npm ls postcss` still shows 8.4.31, add `"overrides": {"postcss": "^8.5.12"}` to `package.json` and run `npm install`.
 - Installed 8.5.9 in `package-lock.json`. Fixed in 8.5.12. Patch: Transitive dependency. Run `npm update postcss`; if `npm ls postcss` still shows 8.5.9, add `"overrides": {"postcss": "^8.5.12"}` to `package.json` and run `npm install`.
+- Tracking issue: [#11](https://github.com/timothyryner/marketplace-hub/issues/11)
 
 ### GHSA-r28c-9q8g-f849: postcss (High)
 <!-- securitybot-id: GHSA-r28c-9q8g-f849|npm|postcss -->
@@ -433,6 +447,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Affected versions: < 8.5.18
 - Installed 8.4.31 in `package-lock.json`. Fixed in 8.5.18. Patch: Transitive dependency. Run `npm update postcss`; if `npm ls postcss` still shows 8.4.31, add `"overrides": {"postcss": "^8.5.18"}` to `package.json` and run `npm install`.
 - Installed 8.5.9 in `package-lock.json`. Fixed in 8.5.18. Patch: Transitive dependency. Run `npm update postcss`; if `npm ls postcss` still shows 8.5.9, add `"overrides": {"postcss": "^8.5.18"}` to `package.json` and run `npm install`.
+- Tracking issue: [#11](https://github.com/timothyryner/marketplace-hub/issues/11)
 
 ### GHSA-f88m-g3jw-g9cj: sharp (High)
 <!-- securitybot-id: GHSA-f88m-g3jw-g9cj|npm|sharp -->
@@ -445,6 +460,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Package: `sharp` (npm)
 - Affected versions: < 0.35.0
 - Installed 0.34.5 in `package-lock.json`. Fixed in 0.35.0. Patch: Transitive dependency. Run `npm update sharp`; if `npm ls sharp` still shows 0.34.5, add `"overrides": {"sharp": "^0.35.0"}` to `package.json` and run `npm install`.
+- Tracking issue: [#12](https://github.com/timothyryner/marketplace-hub/issues/12)
 
 ### GHSA-rgj7-g3m4-5g8c: sharp (High)
 <!-- securitybot-id: GHSA-rgj7-g3m4-5g8c|npm|sharp -->
@@ -457,6 +473,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Package: `sharp` (npm)
 - Affected versions: < 0.35.4
 - Installed 0.34.5 in `package-lock.json`. Fixed in 0.35.4. Patch: Transitive dependency. Run `npm update sharp`; if `npm ls sharp` still shows 0.34.5, add `"overrides": {"sharp": "^0.35.4"}` to `package.json` and run `npm install`.
+- Tracking issue: [#12](https://github.com/timothyryner/marketplace-hub/issues/12)
 
 ### GHSA-wq5f-xc86-pv6w: sharp (High)
 <!-- securitybot-id: GHSA-wq5f-xc86-pv6w|npm|sharp -->
@@ -469,6 +486,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Package: `sharp` (npm)
 - Affected versions: < 0.35.5
 - Installed 0.34.5 in `package-lock.json`. Fixed in 0.35.5. Patch: Transitive dependency. Run `npm update sharp`; if `npm ls sharp` still shows 0.34.5, add `"overrides": {"sharp": "^0.35.5"}` to `package.json` and run `npm install`.
+- Tracking issue: [#12](https://github.com/timothyryner/marketplace-hub/issues/12)
 
 ### GHSA-68fv-2mgg-jv7q: source-map-js (High)
 <!-- securitybot-id: GHSA-68fv-2mgg-jv7q|npm|source-map-js -->
@@ -481,6 +499,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Package: `source-map-js` (npm)
 - Affected versions: >= 1.0.0, < 1.2.2
 - Installed 1.2.1 in `package-lock.json`. Fixed in 1.2.2. Patch: Transitive dependency. Run `npm update source-map-js`; if `npm ls source-map-js` still shows 1.2.1, add `"overrides": {"source-map-js": "^1.2.2"}` to `package.json` and run `npm install`.
+- Tracking issue: [#13](https://github.com/timothyryner/marketplace-hub/issues/13)
 
 ### GHSA-96hv-2xvq-fx4p: ws (High)
 <!-- securitybot-id: GHSA-96hv-2xvq-fx4p|npm|ws -->
@@ -493,6 +512,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Package: `ws` (npm)
 - Affected versions: >= 1.1.0, < 5.2.5; >= 6.0.0, < 6.2.4; >= 7.0.0, < 7.5.11; >= 8.0.0, < 8.21.0
 - Installed 8.20.0 in `package-lock.json`. Fixed in 8.21.0. Patch: Transitive dependency. Run `npm update ws`; if `npm ls ws` still shows 8.20.0, add `"overrides": {"ws": "^8.21.0"}` to `package.json` and run `npm install`.
+- Tracking issue: [#14](https://github.com/timothyryner/marketplace-hub/issues/14)
 
 ### GHSA-p498-v437-472g: @humanfs/node (Moderate)
 <!-- securitybot-id: GHSA-p498-v437-472g|npm|@humanfs/node -->

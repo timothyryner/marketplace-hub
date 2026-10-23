@@ -6,7 +6,7 @@ This file is maintained automatically by SecurityBot. Each entry is a published 
 
 Last scan: 2026-10-23 (CDT).
 
-Open alerts: Critical 5, High 33, Moderate 21, Low 4. On CISA known-exploited list: 0.
+Open alerts: Critical 5, High 34, Moderate 21, Low 4. On CISA known-exploited list: 0.
 
 ## Quick fix summary
 
@@ -29,6 +29,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 | source-map-js (npm) | 1.2.1 | 1.2.2 | `package-lock.json` |
 | uuid (npm) | 13.0.0 | 13.0.1 | `package-lock.json` |
 | ws (npm) | 8.20.0 | 8.21.0 | `package-lock.json` |
+| zod (npm) | 4.3.6 | 4.6.6 | `package-lock.json` |
 
 ## Open alerts
 
@@ -513,6 +514,19 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Affected versions: >= 1.1.0, < 5.2.5; >= 6.0.0, < 6.2.4; >= 7.0.0, < 7.5.11; >= 8.0.0, < 8.21.0
 - Installed 8.20.0 in `package-lock.json`. Fixed in 8.21.0. Patch: Transitive dependency. Run `npm update ws`; if `npm ls ws` still shows 8.20.0, add `"overrides": {"ws": "^8.21.0"}` to `package.json` and run `npm install`.
 - Tracking issue: [#14](https://github.com/timothyryner/marketplace-hub/issues/14)
+
+### GHSA-mrhx-c7xc-m3w5: zod (High)
+<!-- securitybot-id: GHSA-mrhx-c7xc-m3w5|npm|zod -->
+- Status: Open
+- Advisory: [GHSA-mrhx-c7xc-m3w5](https://github.com/advisories/GHSA-mrhx-c7xc-m3w5)
+- CVE: CVE-2023-54404
+- Severity: High
+- CISA known-exploited: No
+- Summary: Zod can exhaust memory while validating oversized constrained collections
+- Package: `zod` (npm)
+- Affected versions: < 4.6.6
+- Installed 4.3.6 in `package-lock.json`. Fixed in 4.6.6. Patch: Transitive dependency. Run `npm update zod`; if `npm ls zod` still shows 4.3.6, add `"overrides": {"zod": "^4.6.6"}` to `package.json` and run `npm install`.
+- Tracking issue: [#15](https://github.com/timothyryner/marketplace-hub/issues/15)
 
 ### GHSA-p498-v437-472g: @humanfs/node (Moderate)
 <!-- securitybot-id: GHSA-p498-v437-472g|npm|@humanfs/node -->

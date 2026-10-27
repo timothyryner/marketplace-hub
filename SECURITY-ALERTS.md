@@ -4,9 +4,9 @@ This file is maintained automatically by SecurityBot. Each entry is a published 
 
 **For coding agents:** apply the patch step for each Open entry, run the tests, and commit the lockfile change. Don't edit this file by hand; SecurityBot marks entries Resolved once the repo no longer resolves an affected version.
 
-Last scan: 2026-10-23 (CDT).
+Last scan: 2026-10-27 (CDT).
 
-Open alerts: Critical 5, High 34, Moderate 21, Low 4. On CISA known-exploited list: 0.
+Open alerts: none. On CISA known-exploited list: 0.
 
 ## Quick fix summary
 
@@ -14,28 +14,16 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 | Package | Installed | Upgrade to at least | File |
 |---|---|---|---|
-| @babel/core (npm) | 7.29.0 | 7.29.6 | `package-lock.json` |
-| @humanfs/node (npm) | 0.16.7 | 0.16.8 | `package-lock.json` |
-| baseline-browser-mapping (npm) | 2.10.17 | 2.11.0 | `package-lock.json` |
-| brace-expansion (npm) | 5.0.5 | 5.0.12 | `package-lock.json` |
-| brace-expansion (npm) | 1.1.13 | 1.1.21 | `package-lock.json` |
-| browserslist (npm) | 4.28.2 | 4.28.7 | `package-lock.json` |
-| js-yaml (npm) | 4.1.1 | 4.3.2 | `package-lock.json` |
-| nanoid (npm) | 3.3.11 | 3.3.18 | `package-lock.json` |
-| next (npm) | 16.2.3 | 16.4.1 | `package-lock.json` |
-| postcss (npm) | 8.4.31 | 8.5.23 | `package-lock.json` |
-| postcss (npm) | 8.5.9 | 8.5.23 | `package-lock.json` |
-| sharp (npm) | 0.34.5 | 0.35.5 | `package-lock.json` |
-| source-map-js (npm) | 1.2.1 | 1.2.2 | `package-lock.json` |
-| uuid (npm) | 13.0.0 | 13.0.1 | `package-lock.json` |
-| ws (npm) | 8.20.0 | 8.21.0 | `package-lock.json` |
-| zod (npm) | 4.3.6 | 4.6.6 | `package-lock.json` |
 
 ## Open alerts
 
+No open alerts. Everything below was fixed on the default branch.
+
+## Resolved
+
 ### GHSA-2464-fhr4-w9xw: next (Critical)
 <!-- securitybot-id: GHSA-2464-fhr4-w9xw|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-2464-fhr4-w9xw](https://github.com/advisories/GHSA-2464-fhr4-w9xw)
 - Severity: Critical
 - CISA known-exploited: No
@@ -47,7 +35,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-2xp9-vwfh-vxw4: next (Critical)
 <!-- securitybot-id: GHSA-2xp9-vwfh-vxw4|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-2xp9-vwfh-vxw4](https://github.com/advisories/GHSA-2xp9-vwfh-vxw4)
 - Severity: Critical
 - CISA known-exploited: No
@@ -59,7 +47,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-673q-mjm6-r5xr: next (Critical)
 <!-- securitybot-id: GHSA-673q-mjm6-r5xr|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-673q-mjm6-r5xr](https://github.com/advisories/GHSA-673q-mjm6-r5xr)
 - Severity: Critical
 - CISA known-exploited: No
@@ -71,7 +59,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-p293-qw3h-jr36: next (Critical)
 <!-- securitybot-id: GHSA-p293-qw3h-jr36|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-p293-qw3h-jr36](https://github.com/advisories/GHSA-p293-qw3h-jr36)
 - CVE: CVE-2026-75604
 - Severity: Critical
@@ -84,7 +72,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-vcvr-r3jv-pc5j: next (Critical)
 <!-- securitybot-id: GHSA-vcvr-r3jv-pc5j|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-vcvr-r3jv-pc5j](https://github.com/advisories/GHSA-vcvr-r3jv-pc5j)
 - Severity: Critical
 - CISA known-exploited: No
@@ -96,7 +84,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-3jxr-9vmj-r5cp: brace-expansion (High)
 <!-- securitybot-id: GHSA-3jxr-9vmj-r5cp|npm|brace-expansion -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-3jxr-9vmj-r5cp](https://github.com/advisories/GHSA-3jxr-9vmj-r5cp)
 - CVE: CVE-2026-13149
 - Severity: High
@@ -110,7 +98,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-6j4f-fj2g-mc7p: brace-expansion (High)
 <!-- securitybot-id: GHSA-6j4f-fj2g-mc7p|npm|brace-expansion -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-6j4f-fj2g-mc7p](https://github.com/advisories/GHSA-6j4f-fj2g-mc7p)
 - CVE: CVE-2026-102276
 - Severity: High
@@ -124,7 +112,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-mh99-v99m-4gvg: brace-expansion (High)
 <!-- securitybot-id: GHSA-mh99-v99m-4gvg|npm|brace-expansion -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-mh99-v99m-4gvg](https://github.com/advisories/GHSA-mh99-v99m-4gvg)
 - CVE: CVE-2026-14257
 - Severity: High
@@ -138,7 +126,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-qhr7-859c-m2p7: brace-expansion (High)
 <!-- securitybot-id: GHSA-qhr7-859c-m2p7|npm|brace-expansion -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-qhr7-859c-m2p7](https://github.com/advisories/GHSA-qhr7-859c-m2p7)
 - CVE: CVE-2026-102278
 - Severity: High
@@ -152,7 +140,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-rgw5-rvv9-x895: brace-expansion (High)
 <!-- securitybot-id: GHSA-rgw5-rvv9-x895|npm|brace-expansion -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-rgw5-rvv9-x895](https://github.com/advisories/GHSA-rgw5-rvv9-x895)
 - CVE: CVE-2026-69152
 - Severity: High
@@ -166,7 +154,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-73wf-gq98-2v4g: browserslist (High)
 <!-- securitybot-id: GHSA-73wf-gq98-2v4g|npm|browserslist -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-73wf-gq98-2v4g](https://github.com/advisories/GHSA-73wf-gq98-2v4g)
 - CVE: CVE-2026-73088
 - Severity: High
@@ -179,7 +167,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-c83g-rgw3-j3cx: browserslist (High)
 <!-- securitybot-id: GHSA-c83g-rgw3-j3cx|npm|browserslist -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-c83g-rgw3-j3cx](https://github.com/advisories/GHSA-c83g-rgw3-j3cx)
 - CVE: CVE-2026-73089
 - Severity: High
@@ -192,7 +180,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-2883-xcg3-v3hh: js-yaml (High)
 <!-- securitybot-id: GHSA-2883-xcg3-v3hh|npm|js-yaml -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-2883-xcg3-v3hh](https://github.com/advisories/GHSA-2883-xcg3-v3hh)
 - CVE: CVE-2026-84375
 - Severity: High
@@ -205,7 +193,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-52cp-r559-cp3m: js-yaml (High)
 <!-- securitybot-id: GHSA-52cp-r559-cp3m|npm|js-yaml -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-52cp-r559-cp3m](https://github.com/advisories/GHSA-52cp-r559-cp3m)
 - CVE: CVE-2026-59869
 - Severity: High
@@ -218,7 +206,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-5p4m-2wfm-xmqj: js-yaml (High)
 <!-- securitybot-id: GHSA-5p4m-2wfm-xmqj|npm|js-yaml -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-5p4m-2wfm-xmqj](https://github.com/advisories/GHSA-5p4m-2wfm-xmqj)
 - Severity: High
 - CISA known-exploited: No
@@ -230,7 +218,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-28wg-ghj8-5hjv: nanoid (High)
 <!-- securitybot-id: GHSA-28wg-ghj8-5hjv|npm|nanoid -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-28wg-ghj8-5hjv](https://github.com/advisories/GHSA-28wg-ghj8-5hjv)
 - CVE: CVE-2026-67214
 - Severity: High
@@ -243,7 +231,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-2v37-7h3g-55p8: nanoid (High)
 <!-- securitybot-id: GHSA-2v37-7h3g-55p8|npm|nanoid -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-2v37-7h3g-55p8](https://github.com/advisories/GHSA-2v37-7h3g-55p8)
 - CVE: CVE-2026-67213
 - Severity: High
@@ -256,7 +244,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-xwg4-73v4-xw9w: nanoid (High)
 <!-- securitybot-id: GHSA-xwg4-73v4-xw9w|npm|nanoid -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-xwg4-73v4-xw9w](https://github.com/advisories/GHSA-xwg4-73v4-xw9w)
 - CVE: CVE-2026-73086
 - Severity: High
@@ -269,7 +257,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-267c-6grr-h53f: next (High)
 <!-- securitybot-id: GHSA-267c-6grr-h53f|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-267c-6grr-h53f](https://github.com/advisories/GHSA-267c-6grr-h53f)
 - CVE: CVE-2026-44575
 - Severity: High
@@ -281,7 +269,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-26hh-7cqf-hhc6: next (High)
 <!-- securitybot-id: GHSA-26hh-7cqf-hhc6|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-26hh-7cqf-hhc6](https://github.com/advisories/GHSA-26hh-7cqf-hhc6)
 - CVE: CVE-2026-45109
 - Severity: High
@@ -293,7 +281,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-36qx-fr4f-26g5: next (High)
 <!-- securitybot-id: GHSA-36qx-fr4f-26g5|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-36qx-fr4f-26g5](https://github.com/advisories/GHSA-36qx-fr4f-26g5)
 - CVE: CVE-2026-44573
 - Severity: High
@@ -305,7 +293,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-492v-c6pp-mqqv: next (High)
 <!-- securitybot-id: GHSA-492v-c6pp-mqqv|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-492v-c6pp-mqqv](https://github.com/advisories/GHSA-492v-c6pp-mqqv)
 - CVE: CVE-2026-44574
 - Severity: High
@@ -317,7 +305,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-6gpp-xcg3-4w24: next (High)
 <!-- securitybot-id: GHSA-6gpp-xcg3-4w24|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-6gpp-xcg3-4w24](https://github.com/advisories/GHSA-6gpp-xcg3-4w24)
 - CVE: CVE-2026-64642
 - Severity: High
@@ -329,7 +317,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-89xv-2m56-2m9x: next (High)
 <!-- securitybot-id: GHSA-89xv-2m56-2m9x|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-89xv-2m56-2m9x](https://github.com/advisories/GHSA-89xv-2m56-2m9x)
 - CVE: CVE-2026-64649
 - Severity: High
@@ -341,7 +329,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-8h8q-6873-q5fj: next (High)
 <!-- securitybot-id: GHSA-8h8q-6873-q5fj|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-8h8q-6873-q5fj](https://github.com/advisories/GHSA-8h8q-6873-q5fj)
 - Severity: High
 - CISA known-exploited: No
@@ -352,7 +340,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-c4j6-fc7j-m34r: next (High)
 <!-- securitybot-id: GHSA-c4j6-fc7j-m34r|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-c4j6-fc7j-m34r](https://github.com/advisories/GHSA-c4j6-fc7j-m34r)
 - CVE: CVE-2026-44578
 - Severity: High
@@ -364,7 +352,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-cjq9-62q9-8jv4: next (High)
 <!-- securitybot-id: GHSA-cjq9-62q9-8jv4|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-cjq9-62q9-8jv4](https://github.com/advisories/GHSA-cjq9-62q9-8jv4)
 - CVE: CVE-2026-94483
 - Severity: High
@@ -376,7 +364,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-m99w-x7hq-7vfj: next (High)
 <!-- securitybot-id: GHSA-m99w-x7hq-7vfj|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-m99w-x7hq-7vfj](https://github.com/advisories/GHSA-m99w-x7hq-7vfj)
 - CVE: CVE-2026-64641
 - Severity: High
@@ -388,7 +376,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-mg66-mrh9-m8jx: next (High)
 <!-- securitybot-id: GHSA-mg66-mrh9-m8jx|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-mg66-mrh9-m8jx](https://github.com/advisories/GHSA-mg66-mrh9-m8jx)
 - CVE: CVE-2026-44579
 - Severity: High
@@ -400,7 +388,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-p3m5-59mp-jv5r: next (High)
 <!-- securitybot-id: GHSA-p3m5-59mp-jv5r|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-p3m5-59mp-jv5r](https://github.com/advisories/GHSA-p3m5-59mp-jv5r)
 - CVE: CVE-2026-94482
 - Severity: High
@@ -412,7 +400,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-p9j2-gv94-2wf4: next (High)
 <!-- securitybot-id: GHSA-p9j2-gv94-2wf4|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-p9j2-gv94-2wf4](https://github.com/advisories/GHSA-p9j2-gv94-2wf4)
 - CVE: CVE-2026-64645
 - Severity: High
@@ -424,7 +412,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-6g55-p6wh-862q: postcss (High)
 <!-- securitybot-id: GHSA-6g55-p6wh-862q|npm|postcss -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-6g55-p6wh-862q](https://github.com/advisories/GHSA-6g55-p6wh-862q)
 - CVE: CVE-2026-45623
 - Severity: High
@@ -438,7 +426,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-r28c-9q8g-f849: postcss (High)
 <!-- securitybot-id: GHSA-r28c-9q8g-f849|npm|postcss -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-r28c-9q8g-f849](https://github.com/advisories/GHSA-r28c-9q8g-f849)
 - CVE: CVE-2026-73646
 - Severity: High
@@ -452,7 +440,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-f88m-g3jw-g9cj: sharp (High)
 <!-- securitybot-id: GHSA-f88m-g3jw-g9cj|npm|sharp -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-f88m-g3jw-g9cj](https://github.com/advisories/GHSA-f88m-g3jw-g9cj)
 - CVE: CVE-2026-114113
 - Severity: High
@@ -465,7 +453,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-rgj7-g3m4-5g8c: sharp (High)
 <!-- securitybot-id: GHSA-rgj7-g3m4-5g8c|npm|sharp -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-rgj7-g3m4-5g8c](https://github.com/advisories/GHSA-rgj7-g3m4-5g8c)
 - CVE: CVE-2026-114112
 - Severity: High
@@ -478,7 +466,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-wq5f-xc86-pv6w: sharp (High)
 <!-- securitybot-id: GHSA-wq5f-xc86-pv6w|npm|sharp -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-wq5f-xc86-pv6w](https://github.com/advisories/GHSA-wq5f-xc86-pv6w)
 - CVE: CVE-2026-114111
 - Severity: High
@@ -491,7 +479,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-68fv-2mgg-jv7q: source-map-js (High)
 <!-- securitybot-id: GHSA-68fv-2mgg-jv7q|npm|source-map-js -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-68fv-2mgg-jv7q](https://github.com/advisories/GHSA-68fv-2mgg-jv7q)
 - CVE: CVE-2026-93749
 - Severity: High
@@ -504,7 +492,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-96hv-2xvq-fx4p: ws (High)
 <!-- securitybot-id: GHSA-96hv-2xvq-fx4p|npm|ws -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-96hv-2xvq-fx4p](https://github.com/advisories/GHSA-96hv-2xvq-fx4p)
 - CVE: CVE-2026-48779
 - Severity: High
@@ -517,7 +505,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-mrhx-c7xc-m3w5: zod (High)
 <!-- securitybot-id: GHSA-mrhx-c7xc-m3w5|npm|zod -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-mrhx-c7xc-m3w5](https://github.com/advisories/GHSA-mrhx-c7xc-m3w5)
 - CVE: CVE-2023-54404
 - Severity: High
@@ -530,7 +518,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-p498-v437-472g: @humanfs/node (Moderate)
 <!-- securitybot-id: GHSA-p498-v437-472g|npm|@humanfs/node -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-p498-v437-472g](https://github.com/advisories/GHSA-p498-v437-472g)
 - Severity: Moderate
 - CISA known-exploited: No
@@ -541,7 +529,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-w5vr-8v7q-w6rv: baseline-browser-mapping (Moderate)
 <!-- securitybot-id: GHSA-w5vr-8v7q-w6rv|npm|baseline-browser-mapping -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-w5vr-8v7q-w6rv](https://github.com/advisories/GHSA-w5vr-8v7q-w6rv)
 - CVE: CVE-2026-45819
 - Severity: Moderate
@@ -553,7 +541,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-jxxr-4gwj-5jf2: brace-expansion (Moderate)
 <!-- securitybot-id: GHSA-jxxr-4gwj-5jf2|npm|brace-expansion -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-jxxr-4gwj-5jf2](https://github.com/advisories/GHSA-jxxr-4gwj-5jf2)
 - CVE: CVE-2026-45149
 - Severity: Moderate
@@ -565,7 +553,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-q2hr-2g5m-vwhr: brace-expansion (Moderate)
 <!-- securitybot-id: GHSA-q2hr-2g5m-vwhr|npm|brace-expansion -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-q2hr-2g5m-vwhr](https://github.com/advisories/GHSA-q2hr-2g5m-vwhr)
 - CVE: CVE-2026-102277
 - Severity: Moderate
@@ -578,7 +566,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-h67p-54hq-rp68: js-yaml (Moderate)
 <!-- securitybot-id: GHSA-h67p-54hq-rp68|npm|js-yaml -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-h67p-54hq-rp68](https://github.com/advisories/GHSA-h67p-54hq-rp68)
 - CVE: CVE-2026-53550
 - Severity: Moderate
@@ -590,7 +578,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-4633-3j49-mh5q: next (Moderate)
 <!-- securitybot-id: GHSA-4633-3j49-mh5q|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-4633-3j49-mh5q](https://github.com/advisories/GHSA-4633-3j49-mh5q)
 - CVE: CVE-2026-64647
 - Severity: Moderate
@@ -602,7 +590,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-4c39-4ccg-62r3: next (Moderate)
 <!-- securitybot-id: GHSA-4c39-4ccg-62r3|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-4c39-4ccg-62r3](https://github.com/advisories/GHSA-4c39-4ccg-62r3)
 - CVE: CVE-2026-64646
 - Severity: Moderate
@@ -614,7 +602,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-4jqv-mc3x-m676: next (Moderate)
 <!-- securitybot-id: GHSA-4jqv-mc3x-m676|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-4jqv-mc3x-m676](https://github.com/advisories/GHSA-4jqv-mc3x-m676)
 - CVE: CVE-2026-94543
 - Severity: Moderate
@@ -626,7 +614,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-68g3-v927-f742: next (Moderate)
 <!-- securitybot-id: GHSA-68g3-v927-f742|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-68g3-v927-f742](https://github.com/advisories/GHSA-68g3-v927-f742)
 - CVE: CVE-2026-64648
 - Severity: Moderate
@@ -638,7 +626,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-955p-x3mx-jcvp: next (Moderate)
 <!-- securitybot-id: GHSA-955p-x3mx-jcvp|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-955p-x3mx-jcvp](https://github.com/advisories/GHSA-955p-x3mx-jcvp)
 - CVE: CVE-2026-64643
 - Severity: Moderate
@@ -650,7 +638,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-f87g-xv8r-7p7x: next (Moderate)
 <!-- securitybot-id: GHSA-f87g-xv8r-7p7x|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-f87g-xv8r-7p7x](https://github.com/advisories/GHSA-f87g-xv8r-7p7x)
 - CVE: CVE-2026-94485
 - Severity: Moderate
@@ -662,7 +650,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-ffhc-5mcf-pf4q: next (Moderate)
 <!-- securitybot-id: GHSA-ffhc-5mcf-pf4q|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-ffhc-5mcf-pf4q](https://github.com/advisories/GHSA-ffhc-5mcf-pf4q)
 - CVE: CVE-2026-44581
 - Severity: Moderate
@@ -674,7 +662,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-gx5p-jg67-6x7h: next (Moderate)
 <!-- securitybot-id: GHSA-gx5p-jg67-6x7h|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-gx5p-jg67-6x7h](https://github.com/advisories/GHSA-gx5p-jg67-6x7h)
 - CVE: CVE-2026-44580
 - Severity: Moderate
@@ -686,7 +674,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-h64f-5h5j-jqjh: next (Moderate)
 <!-- securitybot-id: GHSA-h64f-5h5j-jqjh|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-h64f-5h5j-jqjh](https://github.com/advisories/GHSA-h64f-5h5j-jqjh)
 - CVE: CVE-2026-44577
 - Severity: Moderate
@@ -698,7 +686,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-mcj8-r9mp-w47p: next (Moderate)
 <!-- securitybot-id: GHSA-mcj8-r9mp-w47p|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-mcj8-r9mp-w47p](https://github.com/advisories/GHSA-mcj8-r9mp-w47p)
 - CVE: CVE-2026-94484
 - Severity: Moderate
@@ -710,7 +698,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-q8wf-6r8g-63ch: next (Moderate)
 <!-- securitybot-id: GHSA-q8wf-6r8g-63ch|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-q8wf-6r8g-63ch](https://github.com/advisories/GHSA-q8wf-6r8g-63ch)
 - CVE: CVE-2026-64644
 - Severity: Moderate
@@ -722,7 +710,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-wfc6-r584-vfw7: next (Moderate)
 <!-- securitybot-id: GHSA-wfc6-r584-vfw7|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-wfc6-r584-vfw7](https://github.com/advisories/GHSA-wfc6-r584-vfw7)
 - CVE: CVE-2026-44576
 - Severity: Moderate
@@ -734,7 +722,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-fxqj-rqcc-2cmp: postcss (Moderate)
 <!-- securitybot-id: GHSA-fxqj-rqcc-2cmp|npm|postcss -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-fxqj-rqcc-2cmp](https://github.com/advisories/GHSA-fxqj-rqcc-2cmp)
 - CVE: CVE-2026-69153
 - Severity: Moderate
@@ -747,7 +735,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-qx2v-qp2m-jg93: postcss (Moderate)
 <!-- securitybot-id: GHSA-qx2v-qp2m-jg93|npm|postcss -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-qx2v-qp2m-jg93](https://github.com/advisories/GHSA-qx2v-qp2m-jg93)
 - CVE: CVE-2026-41305
 - Severity: Moderate
@@ -760,7 +748,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-w5hq-g745-h8pq: uuid (Moderate)
 <!-- securitybot-id: GHSA-w5hq-g745-h8pq|npm|uuid -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-w5hq-g745-h8pq](https://github.com/advisories/GHSA-w5hq-g745-h8pq)
 - CVE: CVE-2026-41907, CVE-2026-41988
 - Severity: Moderate
@@ -772,7 +760,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-58qx-3vcg-4xpx: ws (Moderate)
 <!-- securitybot-id: GHSA-58qx-3vcg-4xpx|npm|ws -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-58qx-3vcg-4xpx](https://github.com/advisories/GHSA-58qx-3vcg-4xpx)
 - CVE: CVE-2026-45736
 - Severity: Moderate
@@ -784,7 +772,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-4x5r-pxfx-6jf8: @babel/core (Low)
 <!-- securitybot-id: GHSA-4x5r-pxfx-6jf8|npm|@babel/core -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-4x5r-pxfx-6jf8](https://github.com/advisories/GHSA-4x5r-pxfx-6jf8)
 - CVE: CVE-2026-49356
 - Severity: Low
@@ -796,7 +784,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-39w2-rjm5-chcv: next (Low)
 <!-- securitybot-id: GHSA-39w2-rjm5-chcv|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-39w2-rjm5-chcv](https://github.com/advisories/GHSA-39w2-rjm5-chcv)
 - CVE: CVE-2026-94486
 - Severity: Low
@@ -808,7 +796,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-3g8h-86w9-wvmq: next (Low)
 <!-- securitybot-id: GHSA-3g8h-86w9-wvmq|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-3g8h-86w9-wvmq](https://github.com/advisories/GHSA-3g8h-86w9-wvmq)
 - CVE: CVE-2026-44572
 - Severity: Low
@@ -820,7 +808,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 ### GHSA-vfv6-92ff-j949: next (Low)
 <!-- securitybot-id: GHSA-vfv6-92ff-j949|npm|next -->
-- Status: Open
+- Status: Resolved (verified 2026-10-27 CDT: the default branch no longer resolves an affected version)
 - Advisory: [GHSA-vfv6-92ff-j949](https://github.com/advisories/GHSA-vfv6-92ff-j949)
 - CVE: CVE-2026-44582
 - Severity: Low
@@ -829,7 +817,3 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Package: `next` (npm)
 - Affected versions: >= 13.4.6, < 15.5.16; >= 16.0.0, < 16.2.5
 - Installed 16.2.3 in `package-lock.json`. Fixed in 16.2.5. Patch: `npm install next@16.2.5`
-
-## Resolved
-
-None yet.

@@ -4,7 +4,7 @@ This file is maintained automatically by SecurityBot. Each entry is a published 
 
 **For coding agents:** apply the patch step for each Open entry, run the tests, and commit the lockfile change. Don't edit this file by hand; SecurityBot marks entries Resolved once the repo no longer resolves an affected version.
 
-Last scan: 2026-10-30 (CDT).
+Last scan: 2026-11-04 (CST).
 
 Open alerts: Moderate 1. On CISA known-exploited list: 0.
 
@@ -14,7 +14,7 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 | Package | Installed | Upgrade to at least | File |
 |---|---|---|---|
-| minimatch | 3.1.5, 10.2.5 | 11.0.1 | `package-lock.json` |
+| minimatch | 10.2.5 | 11.0.1 | `package-lock.json` |
 
 ## Open alerts
 
@@ -27,8 +27,8 @@ Lowest version that clears every open advisory for each installed package (upgra
 - CISA known-exploited: No
 - Summary: minimatch has potential denial of service via globparts amplification
 - Package: `minimatch` (npm), transitive dependency
-- Affected versions: < 11.0.1
-- Installed 3.1.5 at `node_modules/minimatch` in `package-lock.json`; 10.2.5 at `node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch` in `package-lock.json`. Fixed in 11.0.1. Patch: add `"overrides": {"minimatch": "^11.0.1"}` to the package.json next to each listed lockfile, run `npm install`, and confirm with `npm ls minimatch` that every copy resolves to 11.0.1 or later (or upgrade the parent packages once they ship a release that depends on a fixed minimatch); then run the tests and build, since this is a major-version jump for older copies.
+- Affected versions: >= 7.0.0, < 11.0.1
+- Installed 10.2.5 at `node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch` in `package-lock.json`. Fixed in 11.0.1. Patch: add `"overrides": {"minimatch": "^11.0.1"}` to the package.json next to each listed lockfile, run `npm install`, and confirm with `npm ls minimatch` that every copy resolves to 11.0.1 or later (or upgrade the parent packages once they ship a release that depends on a fixed minimatch); then run the tests and build, since this is a major-version jump for older copies. Copies older than 7.0.0 (such as 3.x) are outside the affected range; if a blanket override breaks a package that needs minimatch 3, scope the override to the parent package of each listed copy instead.
 
 ## Resolved
 

@@ -6,7 +6,7 @@ This file is maintained automatically by SecurityBot. Each entry is a published 
 
 Last scan: 2026-11-04 (CST).
 
-Open alerts: High 1, Moderate 2. On CISA known-exploited list: 0.
+Open alerts: High 1, Moderate 3. On CISA known-exploited list: 0.
 
 ## Quick fix summary
 
@@ -29,6 +29,18 @@ Lowest version that clears every open advisory for each installed package (upgra
 - Summary: Information disclosure across root params in Next.js when a 'use cache' function is called through unstable_cache() (only apps with Cache Components enabled)
 - Package: `next` (npm), direct dependency
 - Affected versions: >= 16.3.0, < 16.4.5
+- Installed 16.4.3 at `node_modules/next` in `package-lock.json`. Fixed in 16.4.5. Patch: `npm install next@16.4.5` (keep `eslint-config-next` on the same version if present), confirm with `npm ls next` that `package-lock.json` resolves next 16.4.5 or later, then run the tests and build.
+
+### GHSA-vvgp-ww4w-46vf: next (Moderate)
+<!-- securitybot-id: GHSA-vvgp-ww4w-46vf|npm|next -->
+- Status: Open
+- Advisory: [GHSA-vvgp-ww4w-46vf](https://github.com/vercel/next.js/security/advisories/GHSA-vvgp-ww4w-46vf) (vendor advisory published 2026-11-03; also see [Next.js November 2026 security release](https://nextjs.org/blog/november-2026-security-release))
+- CVE: CVE-2026-119350
+- Severity: Moderate
+- CISA known-exploited: No
+- Summary: Cache poisoning of shared fallback shells in Cache Components via request-supplied placeholder route params (only self-hosted `next start` apps with `cacheComponents: true` and Partial Prefetching off; workaround is `partialPrefetching: true`)
+- Package: `next` (npm), direct dependency
+- Affected versions: >= 16.4.0, < 16.4.5
 - Installed 16.4.3 at `node_modules/next` in `package-lock.json`. Fixed in 16.4.5. Patch: `npm install next@16.4.5` (keep `eslint-config-next` on the same version if present), confirm with `npm ls next` that `package-lock.json` resolves next 16.4.5 or later, then run the tests and build.
 
 ### GHSA-pc58-hwjq-p385: next (Moderate)

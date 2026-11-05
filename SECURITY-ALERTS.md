@@ -6,7 +6,7 @@ This file is maintained automatically by SecurityBot. Each entry is a published 
 
 Last scan: 2026-11-04 (CST).
 
-Open alerts: Moderate 1. On CISA known-exploited list: 0.
+Open alerts: High 1, Moderate 2. On CISA known-exploited list: 0.
 
 ## Quick fix summary
 
@@ -14,9 +14,34 @@ Lowest version that clears every open advisory for each installed package (upgra
 
 | Package | Installed | Upgrade to at least | File |
 |---|---|---|---|
+| next (npm) | 16.4.3 | 16.4.5 | `package-lock.json` |
 | minimatch | 10.2.5 | 11.0.1 | `package-lock.json` |
 
 ## Open alerts
+
+### GHSA-mfr8-8qww-v76h: next (High)
+<!-- securitybot-id: GHSA-mfr8-8qww-v76h|npm|next -->
+- Status: Open
+- Advisory: [GHSA-mfr8-8qww-v76h](https://github.com/vercel/next.js/security/advisories/GHSA-mfr8-8qww-v76h) (vendor advisory published 2026-11-03; also see [Next.js November 2026 security release](https://nextjs.org/blog/november-2026-security-release))
+- CVE: CVE-2026-119790
+- Severity: High (rated High in the Next.js November 2026 security release notes; the GitHub advisory lists Medium)
+- CISA known-exploited: No
+- Summary: Information disclosure across root params in Next.js when a 'use cache' function is called through unstable_cache() (only apps with Cache Components enabled)
+- Package: `next` (npm), direct dependency
+- Affected versions: >= 16.3.0, < 16.4.5
+- Installed 16.4.3 at `node_modules/next` in `package-lock.json`. Fixed in 16.4.5. Patch: `npm install next@16.4.5` (keep `eslint-config-next` on the same version if present), confirm with `npm ls next` that `package-lock.json` resolves next 16.4.5 or later, then run the tests and build.
+
+### GHSA-pc58-hwjq-p385: next (Moderate)
+<!-- securitybot-id: GHSA-pc58-hwjq-p385|npm|next -->
+- Status: Open
+- Advisory: [GHSA-pc58-hwjq-p385](https://github.com/vercel/next.js/security/advisories/GHSA-pc58-hwjq-p385) (vendor advisory published 2026-11-03; also see [Next.js November 2026 security release](https://nextjs.org/blog/november-2026-security-release))
+- CVE: CVE-2026-119348
+- Severity: Moderate
+- CISA known-exploited: No
+- Summary: Cross-client response injection and disclosure in self-hosted Next.js applications forwarding fetched responses
+- Package: `next` (npm), direct dependency
+- Affected versions: < 15.5.29; >= 16.0.0, < 16.4.5
+- Installed 16.4.3 at `node_modules/next` in `package-lock.json`. Fixed in 16.4.5. Patch: `npm install next@16.4.5` (keep `eslint-config-next` on the same version if present), confirm with `npm ls next` that `package-lock.json` resolves next 16.4.5 or later, then run the tests and build.
 
 ### GHSA-g3hv-75wg-m249: minimatch (Moderate)
 <!-- securitybot-id: GHSA-g3hv-75wg-m249|npm|minimatch -->

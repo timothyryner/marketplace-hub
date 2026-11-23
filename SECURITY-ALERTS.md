@@ -4,7 +4,7 @@ This file is maintained automatically by SecurityBot. Each entry is a published 
 
 **For coding agents:** apply the patch step for each Open entry, run the tests, and commit the lockfile change. Don't edit this file by hand; SecurityBot marks entries Resolved once the repo no longer resolves an affected version.
 
-Last scan: 2026-11-20 (CST). Full scan: every lockfile and pinned Python requirement (including resolved transitive Python packages) checked against OSV.dev, the GitHub Advisory Database, NVD and the CISA KEV catalog (1790 entries).
+Last scan: 2026-11-23 (CST). Full scan: every lockfile and pinned Python requirement (including resolved transitive Python packages) checked against OSV.dev, the GitHub Advisory Database, NVD and the CISA KEV catalog (1790 entries).
 
 Open alerts: Moderate 1. On CISA known-exploited list: 0.
 
